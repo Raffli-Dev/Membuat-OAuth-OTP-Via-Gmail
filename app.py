@@ -50,18 +50,16 @@ def verify_otp():
     if otp_entered:
         otp_sent = session.get('otp')
         if otp_sent and otp_entered == str(otp_sent):
-            # OTP benar, redirect ke halaman berhasil
+            session.pop('otp')
             return redirect(url_for('berhasil'))
         else:
-            # OTP salah
             return jsonify({'error': 'Kode OTP yang anda masukkan salah.'}), 400
     else:
-        # Jika tidak ada OTP yang dimasukkan
         return jsonify({'error': 'Kode OTP tidak boleh kosong.'}), 400
 
 @app.route("/berhasil")
 def berhasil():
-    
+
     return render_template('sukses.html')
 
 if __name__ == '__main__':
