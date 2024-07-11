@@ -59,7 +59,6 @@ def verify_otp():
 
 @app.route("/berhasil")
 def berhasil():
-
     return render_template('sukses.html')
 
 if __name__ == '__main__':
