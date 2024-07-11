@@ -2,8 +2,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![forthebadge cc-by](http://ForTheBadge.com/images/badges/cc-by.svg)](https://creativecommons.org/licenses/by/4.0)
-
+[![licensebuttons by-nc-sa](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
 
 Project Website ini saya menggunakan flask python backend yang saya buat ini adalah projek untuk bahan belajar yang dimana projek ini menggunakan SMTP GMAIL Bila anda punya konfigurasi SMTP Di dalam server atau hosting tinggal rubah configurasi .env nya, di sini saya akan membuat sebuah configurasi .env nya dan tutorial cara setup virtual enviroment Python. 
 
