@@ -15,7 +15,7 @@ MAIL_PASSWORD="password_smtp_server"
 
 ```
 
-## Proses Intallaion project 
+## Proses Intallation project 
 - Setup Virtual Enviroment Menggunakan Python
 
 Windows
